@@ -39,6 +39,10 @@ const routes = (
           <Route path="option3" tableName="testAction" getComponent={DBTableContainer}/>
         </Route>
 
+
+        <Route path="attendee" tableName="test" component={Hello}/>
+
+
         <Route path="daohang">
           <Route path="555" component={Hello}/>
           <Route path="sanji">

@@ -35,6 +35,11 @@ const sidebarMenu = [
     ],
   },
   {
+    key: 'attendee',
+    name: 'Attendee Info',
+    icon: 'book',
+  },
+  {
     key: 'alone',
     name: '我没有子菜单',
     icon: 'clock-circle',
